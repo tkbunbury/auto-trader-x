@@ -1,7 +1,7 @@
 
 from api.oanda_api import OandaApi
 from models.trade_decision import TradeDecision
-from bot.trade_risk_calculator import get_trade_units
+from trade_risk_calculator import get_trade_units
 
 
 def trade_is_open(pair, api: OandaApi):

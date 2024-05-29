@@ -1,14 +1,16 @@
 import json
 import time
-from bot.technicals_manager import get_trade_decision
-from bot.candle_manager import CandleManager
-from bot.trade_manager import place_trade
+from technicals_manager import get_trade_decision
+from candle_manager import CandleManager
+from trade_manager import place_trade
 from infrastructure.log_wrapper import LogWrapper
 from models.trade_settings import TradeSettings
 from api.oanda_api import OandaApi
 import constants.defs as defs
 
-
+# DISCLAIMER:
+# This code is for educational and display purposes only.
+# It should not be run as is. The authors are not responsible for any financial losses or damages caused by the use of this code.
 
 class Bot:
 
