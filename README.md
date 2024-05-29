@@ -16,3 +16,7 @@ This code is provided as-is and without any warranty. The use of this code for a
 
 - This code includes API keys and credentials for a demo account.
 - Some functionality may be commented out to prevent execution of live trades.
+
+## Author
+
+- [Takai Bunbury](https://github.com/tkbunbury)
